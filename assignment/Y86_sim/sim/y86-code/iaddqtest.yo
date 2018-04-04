@@ -1,0 +1,4 @@
+                            | # prog1: Pad with 3 nop's
+0x000: 30f20a00000000000000 |   irmovq $10,%rdx
+0x00a: c0f20100000000000000	|   iaddq $1,%rdx
+0x014: c02f0100000000000000	|   iaddq $1,%rdx
